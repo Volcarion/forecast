@@ -1,0 +1,38 @@
+
+    [
+		{
+			"name" : "Amarillo",
+			"url_name" : "Amarillo",
+			"state" : "TX",
+			"lat" : "0",
+			"lon" : "0"
+		},
+		{
+			"name" : "Anchorage",
+			"url_name" : "Anchorage",
+			"state" : "AK",
+			"lat" : "0",
+			"lon" : "0"
+		},
+		{
+			"name" : "Denver",
+			"url_name" : "Denver",
+			"state" : "CO",
+			"lat" : "0",
+			"lon" : "0"
+		},
+		{
+			"name" : "Little Rock",
+			"url_name" : "Little Rock",
+			"state" : "AR",
+			"lat" : "0",
+			"lon" : "0"
+		},
+		{
+			"name" : "Missoula",
+			"url_name" : "Missoula",
+			"state" : "MT",
+			"lat" : "0",
+			"lon" : "0"
+		}
+	]

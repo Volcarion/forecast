@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="ForecastApp">
+	<head>
+	<script src="https://code.angularjs.org/1.6.2/angular.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	
+       
+
+	
+	<meta charset="utf-8" />
+	</head>
+	<body>
+		<div ng-controller="WeatherServiceController as wsc" style="margin:auto; width:600px">
+			<h1 style="text-align:center">Weather Service App</h1>
+			<select ng-model="wsc.selected_city" ng-options="s.name for s in wsc.cities" ng-change="wsc.getLatLonForSelected()"></select>
+			</br>
+			</br>
+		<!--	<p><img src="{{wsc.google_static_maps_url}}" /></p>
+			<p>Time: {{wsc.observation_time | date : 'medium'}}</p>
+			<p>Temperature: {{wsc.temperature}}</p>
+			<p>Dewpoint: {{wsc.dewPoint}}</p>
+			<p>Wind Direction: {{wsc.windBearing}}</p>
+			<p>Wind Speed: {{wsc.windSpeed}}</p> -->
+			<my-conditions></my-conditions>
+	<!--		<ul>
+  <li ng-repeat="x in wsc.mydata">
+    {{ x.name }} 
+  </li>
+  </ul> -->
+		</div>
+	</body>
+</html>
+
